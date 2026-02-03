@@ -1,8 +1,7 @@
 # Bài tập kết môn LTTBDD
-
 ---
 
-## 📱 Chức năng chính
+##  Chức năng chính
 - Hiển thị danh sách công việc
 - Thêm công việc mới
 - Dữ liệu được lưu cục bộ và **vẫn hiển thị khi offline**
@@ -10,7 +9,7 @@
 
 ---
 
-## 🏗️ Kiến trúc
+##  Kiến trúc
 Ứng dụng được xây dựng theo mô hình **MVVM (Model – View – ViewModel)**:
 
 - **Model**: Định nghĩa cấu trúc dữ liệu `Task`
@@ -21,7 +20,7 @@
 
 ---
 
-## 💾 Lưu trữ dữ liệu
+##  Lưu trữ dữ liệu
 - Sử dụng **SQLite (sqflite)** để lưu trữ dữ liệu cục bộ
 - Database được lưu trong sandbox của ứng dụng (`tasks.db`)
 - Đảm bảo ứng dụng hoạt động **offline**
@@ -29,7 +28,7 @@
 
 ---
 
-## 🧰 Công nghệ sử dụng
+##  Công nghệ sử dụng
 - Flutter
 - Dart
 - Provider (State Management)
@@ -38,17 +37,22 @@
 
 ---
 
-## 🖼️ Giao diện ứng dụng
+##  Giao diện ứng dụng
 
-### 📋 Màn hình danh sách công việc
-![Task List](assets/screenshots/task_list.png)
+<p align="center">
+  <img src="assets/screenshots/task_list.png" width="45%" />
+  <img src="assets/screenshots/add_task.png" width="45%" />
+</p>
 
-### ➕ Màn hình thêm công việc mới
-![Add Task](assets/screenshots/add_task.png)
+<p align="center">
+  <b>Màn hình danh sách công việc</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Màn hình thêm công việc mới</b>
+</p>
+
 
 ---
 
-## 🚀 Cách chạy project
+##  Cách chạy project
 ```bash
 flutter pub get
 flutter run
